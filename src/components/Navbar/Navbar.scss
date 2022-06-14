@@ -1,0 +1,137 @@
+.app__navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed; 
+    z-index: 2; 
+
+    width: 100%;
+    padding: 1rem 2rem 1rem  0rem; 
+    border:1px solid #c4c7ce;
+
+    @media screen and (max-width:650px){
+        padding: 1.5rem;
+    }
+    
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+        width: 330px;
+
+        @media screen and (max-width:650px){
+            width: 200px;
+            margin-left: -2rem;
+        }
+    }
+}
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+    li {
+        margin: 0 1rem;
+        cursor: pointer;
+    }
+
+    li:hover {
+        color: var(--color-grey)
+    }
+
+    @media screen and (max-width: 1150px){
+        display: none;
+    }
+    
+}
+
+
+.app__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 0.5rem;
+
+    a {
+        margin: 0 1rem;
+        text-decoration: none;
+        transition: 0.5s ease;
+    }
+
+    a:hover {
+        border-bottom: 1px solid var(--color-golden);
+    }
+
+    @media screen and (max-width:650px){
+        display: none;
+    }
+}
+
+.burger__menu:hover{
+    border-bottom: 1px solid var(--color-golden);
+}
+
+.app__navbar-smallscreen_overlay{
+    position: fixed;
+    flex-direction: column;
+    z-index: 5;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    background: var(--color-black);
+    transition: 0.5s ease;
+
+//------------------------------------------------------------------------
+    .overlay__close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    
+        font-size: 30px;
+        color: var(--color-golden);
+        cursor: pointer;
+
+        &:hover {
+            color: var(--color-white);
+        }
+    }
+    
+//------------------------------------------------------------------------
+    .app__navbar-smallscreen_links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    
+        li {
+            margin-top: 4rem;
+            cursor: pointer;
+            color: var(--color-golden);
+            font-size: 2rem;
+            text-align: center;
+            font-family: var(--font-base);
+        }
+    
+        li:hover{
+            color: var(--color-white);
+        }
+    
+    }
+
+}
+
+
+
+
+
+

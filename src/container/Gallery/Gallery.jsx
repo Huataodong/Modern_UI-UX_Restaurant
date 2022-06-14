@@ -4,13 +4,11 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
-import './Gallery.css';
+import './Gallery.scss';
 
+const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05]
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04]
 const Gallery = () => {
-
-
 
   const scrollRef = React.useRef(null);
 
@@ -42,8 +40,6 @@ const Gallery = () => {
             </ div>
           ))}
         </div>
-
-
 
         <div className="app__gallery-images_arrows">
           <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll('left')} />

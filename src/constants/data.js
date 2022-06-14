@@ -1,58 +1,51 @@
 import images from './images';
 
-const wines = [
+const specialities = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Deep-Fried Chicken in Golden Garlic',
+    price: '  ---------- $56',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Gold Leaf Seafood Combination',
+    price: '----------  $59',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Pan-Fried Barramundi Fillet',
+    price: '----------  $44',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Roast Lamb Chop with Honey Pepper',
+    price: '----------  $31',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Oyster Omelette ',
+    price: '----------  $26',
+  },
+  {
+    title: 'Chao Zhou Style Minced Pork Omelette',
+    price: '----------  $36',
   },
 ];
 
-const cocktails = [
+
+const banquets = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Chicken San Choi Bao',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Steamed Assorted Dim Sim",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Deep-Fried Chilli Salt & Pepper Calamari',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'King Prawns in Garlic Sauce',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Pork Ribs in Peking Sauce Gold Leaf Special Fried Rice',
+  },
+  {
+    title: ' Banana Fritter with Ice Cream Coffee or Chinese Tea',
   },
 ];
 
@@ -79,4 +72,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { specialities, banquets, awards };

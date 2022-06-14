@@ -1,0 +1,87 @@
+.app__aboutus {
+    position: relative;
+}
+
+.app__aboutus-overlay {
+    position: absolute; //就像绝对定位的元素不存在时一样
+    // inset: 0;//填充满整个div
+
+    img {
+        width: 391px;
+        height: 415px;
+        z-index: 0;
+    }
+
+    @media screen and (max-width: 650px) {
+        img {
+            width: 100%;
+            height: 180px;
+        }
+    }
+}
+
+//----------------------------------------------------------
+
+.app__aboutus-content {
+    width: 100%;
+    z-index: 1;
+
+    @media screen and (max-width: 900px) {  //竖排
+        flex-direction: column;
+    }  
+
+    .app__aboutus-content_about {
+        flex: 1;  //平分空间
+        display: flex; //横排
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    
+        text-align: right;
+    }
+    
+    .app__aboutus-content_knife {
+        margin: 2rem 4rem;
+        /* border-radius: 5px; */
+        img {
+            height: 650px;
+
+            @media screen and (min-width: 2000px) {
+                height: 1010px;
+            }
+
+            @media screen and (max-width: 900px) {
+                margin: 2rem 0;
+            }
+
+            @media screen and (max-width: 650px) {
+                height: 450px;
+            }
+           
+        }
+    }
+     
+    .app__aboutus-content_history {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    
+        text-align: left;
+    }
+    
+    p {
+        margin: 2rem 0;
+        color: var(--color-grey);
+
+        @media screen and (min-width: 2000px) {
+             margin: 4rem 0;        
+         }
+    }
+
+//----------------------------------------------------------------
+    
+}
+
+

@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 4rem 5rem;
 }
 
 .flex__center {
@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background-color: var(--color-bg);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -25,6 +25,8 @@
 }
 
 .app__wrapper_info {
+  margin: 5rem;
+  /* background-color: rgb(243, 12, 12); */
   flex: 1;
   width: 100%;
   display: flex;
@@ -45,7 +47,7 @@
 
 .app__wrapper_img-reverse {
   justify-content: flex-start;
-  margin-right: 2rem;
+  margin-right: 0rem;
 }
 
 .app__wrapper_img img {
@@ -65,6 +67,10 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+.custom__button:hover{
+  transition-duration: 0.4s;
+  background-color: #e7e7e7;
 }
 
 .p__cormorant {
@@ -91,7 +97,7 @@
 .headtext__cormorant {
   font-family: var(--font-base);
   color: var(--color-golden);
-  font-size: 64px;
+  font-size: 60px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;

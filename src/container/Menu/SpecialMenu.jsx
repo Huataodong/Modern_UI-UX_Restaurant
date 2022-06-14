@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
 import { images, data } from '../../constants';
-import './SpecialMenu.css';
+import './SpecialMenu.scss';
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
@@ -12,11 +12,11 @@ const SpecialMenu = () => (
     </div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine flex__center ">
-        <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+      <div className="app__specialMenu-menu_specialties ">
+        <p className="app__specialMenu-menu_heading">SPECIALITIES</p>
         <div className="app__specialMenu-menu_items">
-          {data.wines.map((wine, index) => (
-            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+          {data.specialities.map((specialitie, index) => (
+            <MenuItem key={specialitie.title + index} title={specialitie.title} price={specialitie.price} />
           ))}
         </div>
       </div>
@@ -25,11 +25,11 @@ const SpecialMenu = () => (
         <img src={images.menu} alt="menu__img" />
       </div>
 
-      <div className="app__specialMenu-menu_cocktails flex__center ">
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+      <div className="app__specialMenu-menu_banquets">
+        <p className="app__specialMenu-menu_heading">BANQUETS <br /> $52.00 Per Person</p>
         <div className="app__specialMenu-menu_items">
-          {data.cocktails.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+          {data.banquets.map((banquet, index) => (
+            <MenuItem key={banquet.title + index} title={banquet.title} />
           ))}
         </div>
       </div>

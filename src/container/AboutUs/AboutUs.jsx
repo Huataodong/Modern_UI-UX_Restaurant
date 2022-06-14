@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { images } from '../../constants';
-import './AboutUs.css';
+import './AboutUs.scss';
 
 const AboutUs = () => (
   <div className="app__aboutus app__bg flex__center section__padding" id="about">
@@ -13,7 +13,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+        <p className="p__opensans">Our experienced chefs utilise only the freshest seasonal ingredients and the most traditional yet creative recipes to create the mouth-watering dishes served at Gold Leaf. With fresh seafood from our live seafood tanks and a wide range of traditional and exquisite dim sums, we offer an utmost Cantonese dining and yum cha experience that is like no others.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
 
@@ -24,7 +24,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+        <p className="p__opensans">Established in Year 2000, Our Restaurant has been the place-to-be for authentic Cantonese yum cha and dining in Melbourne. We offer high quality Cantonese cuisine at affordable prices at our five restaurants across Melbourne in Docklands, Preston, Burwood, Sunshine and Springvale.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
     </div>

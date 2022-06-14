@@ -1,0 +1,111 @@
+.app__chef_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    margin-left: 1rem;
+
+    img {
+        width: 80%;
+        border-radius: 10%;
+    }
+
+    @media screen and (max-width: 1150px) {
+        width: 80%;
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 80%;
+        margin-bottom: -2rem;
+    }
+    
+  }
+
+  .app__chef-title {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 60px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+  
+    @media screen and (max-width: 450px) {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+  }
+
+
+.app__chef-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+
+    .app__chef-content_quote {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+        img {
+            width: 47px;
+            height: 40px;
+            margin: 0 1rem 1rem 0;
+
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        margin-top: 1.5rem;
+    }
+
+}
+
+.app__chef-sign {
+    width: 100%;
+    margin-top: 3rem;
+
+    p:first-child {
+        font-family: var(--font-base);
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 41.6px;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--color-golden);
+
+        @media screen and (max-width: 450px) {
+            font-size: 22px;
+            margin-top: -1rem;
+        }
+    }
+
+    img {
+        width: 250px;
+        margin-top: 2rem;
+        margin-left: -0.5rem;
+
+        @media screen and (min-width: 2000px) {
+            width: 300px;
+        }
+
+        @media screen and (max-width: 1150px) {
+            margin-top: 1rem;
+        }
+
+        @media screen and (max-width: 450px) {
+            width: 40%;
+            margin-top: 1rem;
+            margin-bottom: -3rem;
+        }
+
+    }
+
+}
+
+
+
+

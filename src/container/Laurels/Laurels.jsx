@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SubHeading } from '../../components';
 import { images, data } from '../../constants';
-import './Laurels.css';
+import './Laurels.scss';
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
   <div className="app__laurels_awards-card">
@@ -25,8 +25,8 @@ const Laurels = () => (
       </div>
     </div>
 
-    <div className="app__wrapper_img">
-      <img src={images.laurels} alt="laurels"   />
+    <div className="app__laurels_img">
+      <img src={images.laurels} alt="laurels" />
     </div>
 
   </div >
