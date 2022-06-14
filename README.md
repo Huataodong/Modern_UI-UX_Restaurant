@@ -22,4 +22,4 @@ New things learned:
 
 
 Display:
- https://huataodong.github.io/Modern_UI-UX_Restaurant/
+ https://huataodong.github.io/Modern_UI_UX_Restaurant/
