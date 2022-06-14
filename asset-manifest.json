@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Modern_UI-UX_Restaurant_Website/static/css/main.18f97506.css",
+    "main.css": "/Modern_UI-UX_Restaurant_Website/static/css/main.39440187.css",
     "main.js": "/Modern_UI-UX_Restaurant_Website/static/js/main.ef193784.js",
     "static/media/meal.mp4": "/Modern_UI-UX_Restaurant_Website/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/Modern_UI-UX_Restaurant_Website/static/media/bg.3d421b1b5682e1b67deb.png",
@@ -26,11 +26,11 @@
     "static/media/award03.png": "/Modern_UI-UX_Restaurant_Website/static/media/award03.3f7ee934c17dccbd5fc6.png",
     "index.html": "/Modern_UI-UX_Restaurant_Website/index.html",
     "static/media/spoon.svg": "/Modern_UI-UX_Restaurant_Website/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.18f97506.css.map": "/Modern_UI-UX_Restaurant_Website/static/css/main.18f97506.css.map",
+    "main.39440187.css.map": "/Modern_UI-UX_Restaurant_Website/static/css/main.39440187.css.map",
     "main.ef193784.js.map": "/Modern_UI-UX_Restaurant_Website/static/js/main.ef193784.js.map"
   },
   "entrypoints": [
-    "static/css/main.18f97506.css",
+    "static/css/main.39440187.css",
     "static/js/main.ef193784.js"
   ]
 }
