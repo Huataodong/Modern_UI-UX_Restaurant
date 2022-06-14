@@ -11,6 +11,7 @@
     background: url('../../assets/header_bg.png');
     background-position: center;
     background-size: cover;
+<<<<<<< HEAD
     // background-repeat: repeat;
     // background-attachment: fixed;
     filter:grayscale(60%);
@@ -19,6 +20,17 @@
     @media screen and (max-width: 450px) {
         background-position: center;
         background-size: cover;
+=======
+//     background-repeat: repeat;
+//     background-attachment: fixed;
+    filter:grayscale(60%);
+    filter:brightness(50%);
+     
+    @media screen and (max-width: 450px) {
+        background-position: center;
+        background-size: cover;
+          margin: 2rem;
+>>>>>>> f7974cfdec26dbeec2d595e98057525c5a6527f6
     }
     
   }
