@@ -38,7 +38,10 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: '15px' }}>
-      <button type='button' className="custom__button">View More</button>
+
+      <a href={require("../../assets/GL_Docklands_English_2022.pdf")} download="GFG">
+        <button className="custom__button" type="button">Explore Menu</button>
+      </a>
     </div>
 
   </div>

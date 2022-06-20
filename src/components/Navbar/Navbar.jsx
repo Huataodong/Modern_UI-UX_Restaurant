@@ -7,6 +7,7 @@ import './Navbar.scss'
 
 const Navbar = () => {
 
+  const items = ['home', 'about', 'menu', 'awards', 'contact']
   const [toggleMenu, setToggleMenu] = React.useState(false)
 
   const [navSize, setnavSize] = useState("7rem"); //nav height
@@ -16,6 +17,7 @@ const Navbar = () => {
     window.scrollY > 10 ? setnavColor("#14363C") : setnavColor("transparent");
     window.scrollY > 10 ? setnavSize("5rem") : setnavSize("7rem");
   };
+
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
     return () => {
@@ -37,11 +39,11 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#awards">Awards</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        {items.map((item) => (
+          <li className="p__opensans" key={`link-${item}`}>
+            <a href={`#${item}`}>{item}</a>
+          </li>
+        ))}
       </ul>
 
       <div className="app__navbar-login">
@@ -49,17 +51,21 @@ const Navbar = () => {
         <a href='/' className="p__opensans">Book Table</a>
       </div>
       <div>
+
         <GiHamburgerMenu className="burger__menu" color="#fff" size={27} onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex_center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans"><a href="#home">Home</a></li>
-              <li className="p__opensans"><a href="#about">About</a></li>
-              <li className="p__opensans"><a href="#menu">Menu</a></li>
-              <li className="p__opensans"><a href="#awards">Awards</a></li>
-              <li className="p__opensans"><a href="#contact">Contact</a></li>
+              {['home', 'about', 'menu', 'awards', 'contact'].map((item) => (
+                <li className="p__opensans" key={item} >
+                  {/* close menu and change to item once click*/}
+                  <a href={`#${item}`} onClick={() => setToggleMenu(false)} >
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         )}

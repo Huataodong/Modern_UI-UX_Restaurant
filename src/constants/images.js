@@ -24,6 +24,8 @@ import gericht from '../assets/gericht.png';
 import header_bg from '../assets/header_bg.png';
 import Niubi_Plus from '../assets/Niubi_Plus.png';
 import chopsticks from '../assets/chopsticks.jpg';
+import GL_Docklands_English_2022 from '../assets/GL_Docklands_English_2022.pdf';
+
 
 
 export default {
@@ -53,4 +55,5 @@ export default {
   header_bg,
   Niubi_Plus,
   chopsticks,
+  GL_Docklands_English_2022,
 };

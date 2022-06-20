@@ -12,7 +12,11 @@ const Header = () => (
       <SubHeading title="Chase the new flavour" />
       <h1 className="app__header-h1">The Key To Fine Dining</h1>
       <p className="p__opensans" style={{ margin: '2rem 0' }}>Renowned for high quality Cantonese cuisine made from the freshest seasonal ingredients. Our Restaurant has been the place for authentic Cantonese yum cha and dining experience in Melbourne over the last decades. </p>
-      <button type="button" className="custom__button">Explore Menu</button>
+
+      <a href={require("../../assets/GL_Docklands_English_2022.pdf")} download="GFG">
+        <button className="custom__button" type="button">Explore Menu</button>
+      </a>
+
     </div>
 
   </div>
