@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Modern_UI_UX_Restaurant/static/css/main.d4fa8542.css",
-    "main.js": "/Modern_UI_UX_Restaurant/static/js/main.6bd0be14.js",
+    "main.css": "/Modern_UI_UX_Restaurant/static/css/main.4ff91877.css",
+    "main.js": "/Modern_UI_UX_Restaurant/static/js/main.338aa430.js",
     "static/media/meal.mp4": "/Modern_UI_UX_Restaurant/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/Modern_UI_UX_Restaurant/static/media/bg.3d421b1b5682e1b67deb.png",
+    "static/media/GL_Docklands_English_2022.pdf": "/Modern_UI_UX_Restaurant/static/media/GL_Docklands_English_2022.4db64aa033f7dc05245f.pdf",
     "static/media/welcome.png": "/Modern_UI_UX_Restaurant/static/media/welcome.d724eb984456d9c97470.png",
     "static/media/chopsticks.jpg": "/Modern_UI_UX_Restaurant/static/media/chopsticks.858869eabbebe7aac9e0.jpg",
     "static/media/gallery01.png": "/Modern_UI_UX_Restaurant/static/media/gallery01.858869eabbebe7aac9e0.png",
@@ -26,11 +27,11 @@
     "static/media/award03.png": "/Modern_UI_UX_Restaurant/static/media/award03.3f7ee934c17dccbd5fc6.png",
     "index.html": "/Modern_UI_UX_Restaurant/index.html",
     "static/media/spoon.svg": "/Modern_UI_UX_Restaurant/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.d4fa8542.css.map": "/Modern_UI_UX_Restaurant/static/css/main.d4fa8542.css.map",
-    "main.6bd0be14.js.map": "/Modern_UI_UX_Restaurant/static/js/main.6bd0be14.js.map"
+    "main.4ff91877.css.map": "/Modern_UI_UX_Restaurant/static/css/main.4ff91877.css.map",
+    "main.338aa430.js.map": "/Modern_UI_UX_Restaurant/static/js/main.338aa430.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4fa8542.css",
-    "static/js/main.6bd0be14.js"
+    "static/css/main.4ff91877.css",
+    "static/js/main.338aa430.js"
   ]
 }
