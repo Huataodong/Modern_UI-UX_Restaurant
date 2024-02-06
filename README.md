@@ -1,5 +1,5 @@
 
-# Weather-app
+#Modern UI/UX Restaurant
 
 **Display:** [click here](https://hunterbiu1205.github.io/Modern-UI-UX-Restaurant/)
 
